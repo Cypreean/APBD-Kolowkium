@@ -13,6 +13,7 @@ public class BooksAuthors
 public class BooksAuthorsNoId
 {
     [Required]
+    [MaxLength(100)]
     public string Title { get; set; }
     public List<Authors> Authors { get; set; }
 }
